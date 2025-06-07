@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.portfolio-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-section h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.contact-info span,
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+}
+
+h2 {
+  color: #2196F3;
+  border-bottom: 2px solid #2196F3;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+.skill-category,
+.education-item,
+.project-item,
+.competency-category {
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #2196F3;
+}
+
+.project-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.project-item p strong {
+  color: #555;
+}
+
+.project-item a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* Basic responsive adjustments */
+@media (max-width: 768px) {
+  .portfolio-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .header-section h1 {
+    font-size: 1.8em;
+  }
+
+  .contact-info {
+    font-size: 0.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
