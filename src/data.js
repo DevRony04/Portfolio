@@ -18,9 +18,10 @@ I'm continuously exploring emerging technologies and believe in building solutio
 
 Let's connect and build something impactful together! 🚀`,
   technicalSkills: {
-    frontend: "HTML5, CSS3, JavaScript, React.js, Next.js, Tailwind CSS",
+    frontend: "HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS",
     backendDatabase: "Node.js, Express.js, MongoDB, SQL, Firebase, Supabase",
     programmingLanguages: "Python, Core Java, Data Structures and Algorithms (DSA)",
+    aiFields: "Gen AI, LLMS, RAG, Agentic AI, MCP Servers",
   },
   projects: [
     {
@@ -63,7 +64,7 @@ Let's connect and build something impactful together! 🚀`,
     },
   ],
   coreCompetencies: {
-    additionalSkills: "AWS, Git, Problem Solving",
+    additionalSkills: "AWS, Git, Problem Solving, System Design, Microservices, Docker, Kubernetes, CI/CD, DevOps",
     languages: "English, Hindi, Bengali",
   },
   certificates: [
@@ -72,7 +73,7 @@ Let's connect and build something impactful together! 🚀`,
       issuer: "Infosys Springboard",
       date: "June 8, 2025",
       certificateLink: "https://verify.onwingspan.com/certificate/INFY-1234-5678",
-      image: "src/assets/certificate-infosys-aws.jpg"
+      image: "/src/assets/certificate-infosys-aws.jpg"
     }
   ],
 };
