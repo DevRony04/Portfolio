@@ -7,6 +7,7 @@ import TechnicalSkills from './TechnicalSkills';
 import Projects from './Projects';
 import Education from './Education';
 import CoreCompetencies from './CoreCompetencies';
+import Certification from './Certification';
 import './index.css'; // General styles
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/competencies",
         element: <CoreCompetencies />,
+      },
+      {
+        path: "/certification",
+        element: <Certification />,
       },
     ],
   },

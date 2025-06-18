@@ -25,6 +25,7 @@ function DashboardLayout() {
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/education">Education</NavLink></li>
             <li><NavLink to="/competencies">Competencies</NavLink></li>
+            <li><NavLink to="/certification">Certification</NavLink></li>
           </ul>
         </nav>
       </aside>

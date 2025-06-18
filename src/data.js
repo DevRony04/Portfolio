@@ -66,6 +66,15 @@ Let's connect and build something impactful together! 🚀`,
     additionalSkills: "AWS, Git, Problem Solving",
     languages: "English, Hindi, Bengali",
   },
+  certificates: [
+    {
+      title: "AWS Certified Developer - Associate Certification",
+      issuer: "Infosys Springboard",
+      date: "June 8, 2025",
+      certificateLink: "https://verify.onwingspan.com/certificate/INFY-1234-5678",
+      image: "src/assets/certificate-infosys-aws.jpg"
+    }
+  ],
 };
 
 export default resumeData; 
