@@ -21,7 +21,7 @@ Let's connect and build something impactful together! 🚀`,
     frontend: "HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS",
     backendDatabase: "Node.js, Express.js, MongoDB, SQL, Firebase, Supabase",
     programmingLanguages: "Python, Core Java, Data Structures and Algorithms (DSA)",
-    aiFields: "Gen AI, LLMS, RAG, Agentic AI, MCP Servers",
+    AIFields: "Gen AI, LLMS, RAG, Agentic AI, MCP Servers, AI Tools Expert",
   },
   projects: [
     {

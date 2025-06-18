@@ -20,6 +20,10 @@ function TechnicalSkills() {
         <h3>Backend & Database</h3>
         <p>{technicalSkills.backendDatabase}</p>
       </div>
+      <div className="skill-category">
+        <h3>AI Fields</h3>
+        <p>{technicalSkills.AIFields}</p>
+      </div>
     </div>
   );
 }
