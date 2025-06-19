@@ -32,6 +32,7 @@ Let's connect and build something impactful together! 🚀`,
         "Secure user authentication, payment integration, and order tracking",
         "Admin dashboard for product and inventory management",
         "Responsive design with optimized performance",
+        "Implemented real-time cart updates and automatic inventory adjustment to prevent over-ordering and ensure accurate stock management."
       ],
       liveDemo: "https://ecommerce-frontend-omega-brown.vercel.app/",
       github: "https://github.com/DevRony04/ecommerce-app",
@@ -39,11 +40,12 @@ Let's connect and build something impactful together! 🚀`,
     {
       title: "VehiQL 2 – AI-Powered Car Marketplace",
       type: "",
-      description: "AI-powered car marketplace using Next.js, Supabase, and Gemini API integration.",
+      description: "AI-powered car marketplace using Next.js, Arcjet, Clerk, Supabase, PostgreSql, and Gemini API integration.",
       details: [
         "Server-side rendering with conversational search and intelligent recommendations",
         "Secure authentication and real-time data handling with advanced bot protection",
         "Responsive design with optimized performance and global deployment",
+        "After admin login, the dashboard enables automatic extraction of car details using AI from user input and seamlessly adds it to the car listings."
       ],
       liveDemo: "https://vehiql2-devrony04s-projects.vercel.app/",
       github: "https://github.com/DevRony04/vehiql2",
