@@ -10,11 +10,12 @@
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border: 1px solid #e0e0e0;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(33, 150, 243, 0.15), 0 1.5px 6px rgba(0,0,0,0.08);
 }
 
 .project-card h3 {

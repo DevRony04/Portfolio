@@ -55,6 +55,12 @@
   border: 1px solid #e0e0e0;
   margin-bottom: 15px;
   text-align: left;
+  transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
+}
+
+.certificate-card:hover {
+  box-shadow: 0 8px 24px rgba(33, 150, 243, 0.15), 0 1.5px 6px rgba(0,0,0,0.08);
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
 }
 
 .certificate-card h3 {
