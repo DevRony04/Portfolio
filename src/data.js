@@ -74,15 +74,13 @@ Let's connect and build something impactful together! 🚀`,
       title: "AWS Certified Developer - Associate Certification",
       issuer: "Infosys Springboard",
       date: "June 8, 2025",
-      certificateLink: "https://drive.google.com/file/d/1ytA4Eq8s0taJgACjKqEPODZEre7SQ2d5/view?usp=sharing",
-      image: ""
+      certificateLink: "https://drive.google.com/file/d/1ytA4Eq8s0taJgACjKqEPODZEre7SQ2d5/view?usp=sharing",     
     },
     {
       title: "Certificate of Achievement: TCS iON Career Edge - Young Professional",
       issuer: "TCS iON",
       date: "June 19, 2025",
       certificateLink: "https://drive.google.com/file/d/1QWmj3Suq3rlV1tluuGuTzaz1YFZqMF54/view?usp=sharing",
-      image: "",
       description: "Successfully completed TCS iON Career Edge - Young Professional course covering Communication Skills, Presentation Skills, Soft Skills, Career Guidance Framework, Resume Writing, Group Discussion Skills, Interview Skills, Business Etiquette, Effective Email Writing, Telephone Etiquette, Accounting Fundamentals, IT Foundational Skills, and Overview of Artificial Intelligence."
     }
   ],

@@ -16,7 +16,6 @@ function Certification() {
           <p><strong>Date:</strong> {cert.date}</p>
           <a href={cert.certificateLink} target="_blank" rel="noopener noreferrer">View Certificate</a>
           <div style={{ marginTop: '15px' }}>
-            <img src={cert.image} alt={cert.title} style={{ maxWidth: '100%', maxHeight: '350px', borderRadius: '6px', boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }} />
           </div>
         </div>
       ))}
