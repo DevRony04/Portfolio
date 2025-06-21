@@ -13,6 +13,10 @@ function CoreCompetencies() {
         <p>{coreCompetencies.additionalSkills}</p>
       </div>
       <div className="competency-category">
+        <h3>Hobbies</h3>
+        <p>{coreCompetencies.Hobbies}</p>
+      </div>
+      <div className="competency-category">
         <h3>Languages</h3>
         <p>{coreCompetencies.languages}</p>
       </div>

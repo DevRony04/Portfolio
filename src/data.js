@@ -18,10 +18,12 @@ I'm continuously exploring emerging technologies and believe in building solutio
 
 Let's connect and build something impactful together! 🚀`,
   technicalSkills: {
-    frontend: "HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS",
-    backendDatabase: "Node.js, Express.js, MongoDB, SQL, Firebase, Supabase",
-    programmingLanguages: "Python, Core Java, Data Structures and Algorithms (DSA)",
+    Languages: "HTML5, CSS3, JavaScript, TypeScript, Core Java, Python, C++",
+    LibrariesFrameworks: "ReactJS, NextJS, NodeJS, ExpressJS, GraphQL, Mongoose, SpringBoot",
+    ToolsAndSoftware: "Docker, Kubernetes, Postman, Babel, Webpack, JIRA, AWS",
+    Database: "MYSQL, POSTGRESQL, MONGODB",
     AIFields: "Gen AI, LLMS, RAG, Agentic AI, MCP Servers, AI Tools Expert",
+    Subjects: "Data Structure and Alogorithm, Object-Oriented-programming(OOPS), CI/CD, Software Development Life Cycle(SDLC), Operating System, Database Management System, System Design, Agile & Scrum Methodologies"
   },
   projects: [
     {
@@ -66,7 +68,8 @@ Let's connect and build something impactful together! 🚀`,
     },
   ],
   coreCompetencies: {
-    additionalSkills: "AWS, Git, Problem Solving, System Design, Microservices, Docker, Kubernetes, CI/CD, DevOps",
+    additionalSkills: "RESTful API Design & Integration, Cloud Services, AI Integration (Chatbots, OpenAI APIs, Gemini APIs), Problem Solving & Debugging",
+    Hobbies : "Building tech side-projects, Competitive programming on LeetCode, Trekking & Travelling, Playing Football, Long Distance MotorCycle Rides, Fitness Workouts",
     languages: "English, Hindi, Bengali",
   },
   certificates: [
