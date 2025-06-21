@@ -21,7 +21,7 @@ Let's connect and build something impactful together! 🚀`,
     Languages: "HTML5, CSS3, JavaScript, TypeScript, Core Java, Python, C++",
     LibrariesFrameworks: "ReactJS, NextJS, NodeJS, ExpressJS, GraphQL, Mongoose, SpringBoot",
     ToolsAndSoftware: "Docker, Kubernetes, Postman, Babel, Webpack, JIRA, AWS",
-    Database: "MYSQL, POSTGRESQL, MONGODB",
+    Database: "MySql, PostgreSql, MongoDB",
     AIFields: "Gen AI, LLMS, RAG, Agentic AI, MCP Servers, AI Tools Expert",
     Subjects: "Data Structure and Alogorithm, Object-Oriented-programming(OOPS), CI/CD, Software Development Life Cycle(SDLC), Operating System, Database Management System, System Design, Agile & Scrum Methodologies"
   },

@@ -9,7 +9,7 @@ function TechnicalSkills() {
     <div className="content-section">
       <h2>TECHNICAL SKILLS</h2>
       <div className="skill-category">
-        <h3>Languages</h3>
+        <h3>Programming Languages</h3>
         <p>{technicalSkills.Languages}</p>
       </div>
       <div className="skill-category">
