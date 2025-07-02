@@ -1,16 +1,5 @@
 
 import { motion } from "framer-motion";
-import { Canvas } from "@react-three/fiber";
-import { Box, OrbitControls } from "@react-three/drei";
-import { Suspense } from "react";
-
-const FloatingCube = () => {
-  return (
-    <Box args={[1, 1, 1]} position={[0, 0, 0]}>
-      <meshStandardMaterial color="#8B5CF6" />
-    </Box>
-  );
-};
 
 const About = () => {
   return (
@@ -64,16 +53,25 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="h-96 w-full"
+            className="h-96 w-full relative"
           >
-            <Canvas>
-              <Suspense fallback={null}>
-                <OrbitControls enableZoom={false} autoRotate />
-                <ambientLight intensity={0.5} />
-                <pointLight position={[10, 10, 10]} />
-                <FloatingCube />
-              </Suspense>
-            </Canvas>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-2xl">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.3),transparent_70%)] rounded-2xl"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <motion.div
+                  className="w-32 h-32 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-70"
+                  animate={{ 
+                    scale: [1, 1.2, 1],
+                    rotate: [0, 180, 360]
+                  }}
+                  transition={{ 
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
