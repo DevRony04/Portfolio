@@ -1,91 +1,58 @@
 
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-const Navigation = () => {
-  const [activeSection, setActiveSection] = useState("hero");
-  const [isVisible, setIsVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+interface NavigationProps {
+  currentPage: number;
+  goToPage: (index: number) => void;
+  pages: Array<{ id: string; title: string }>;
+}
 
-  const navItems = [
-    { id: "hero", label: "Home" },
-    { id: "about", label: "About" },
-    { id: "skills", label: "Skills" },
-    { id: "projects", label: "Projects" },
-    { id: "education", label: "Education" },
-    { id: "certificates", label: "Certificates" },
-    { id: "contact", label: "Contact" },
-  ];
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      setIsVisible(lastScrollY > currentScrollY || currentScrollY < 10);
-      setLastScrollY(currentScrollY);
-
-      // Update active section
-      const sections = navItems.map(item => document.getElementById(item.id));
-      const current = sections.find(section => {
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottom >= 100;
-        }
-        return false;
-      });
-      
-      if (current) {
-        setActiveSection(current.id);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
-
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+const Navigation = ({ currentPage, goToPage, pages }: NavigationProps) => {
   return (
     <motion.nav
       initial={{ y: -100 }}
-      animate={{ y: isVisible ? 0 : -100 }}
-      transition={{ duration: 0.3 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800"
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="flex justify-between items-center h-20">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
           >
             DEEPYAMAN MONDAL
           </motion.div>
           
-          <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
+          <div className="hidden md:flex space-x-1">
+            {pages.map((page, index) => (
               <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                  activeSection === item.id
-                    ? "text-blue-400"
-                    : "text-gray-300 hover:text-white"
+                key={page.id}
+                onClick={() => goToPage(index)}
+                className={`relative px-6 py-3 text-sm font-medium transition-all duration-300 rounded-full ${
+                  currentPage === index
+                    ? "text-white bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg shadow-blue-500/25"
+                    : "text-gray-300 hover:text-white hover:bg-white/10"
                 }`}
               >
-                {item.label}
-                {activeSection === item.id && (
+                {page.title}
+                {currentPage === index && (
                   <motion.div
-                    layoutId="activeSection"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-400"
+                    layoutId="activeTab"
+                    className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full -z-10"
+                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                   />
                 )}
               </button>
             ))}
+          </div>
+
+          {/* Mobile menu */}
+          <div className="md:hidden">
+            <div className="text-sm text-gray-300">
+              {pages[currentPage].title}
+            </div>
           </div>
         </div>
       </div>
