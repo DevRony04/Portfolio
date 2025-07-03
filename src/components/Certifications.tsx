@@ -1,8 +1,7 @@
-
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
-const Certificates = () => {
+const Certifications = () => {
   const certificates = [
     {
       title: "AWS Certified Developer - Associate Certification",
@@ -21,7 +20,7 @@ const Certificates = () => {
   ];
 
   return (
-    <section id="certificates" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="certifications" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -79,4 +78,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates;
+export default Certifications;

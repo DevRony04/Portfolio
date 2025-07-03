@@ -1,9 +1,8 @@
-
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
-  const skills = ["React.js", "Node.js", "MongoDB", "TypeScript", "AI Integration", "System Design"];
+  const skills = ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "AI Integration", "System Design"];
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8">
@@ -23,10 +22,12 @@ const Hero = () => {
           >
             <div className="relative">
               <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1">
-                <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
-                  <span className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                    DM
-                  </span>
+                <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/photo.jpg"
+                    alt="Profile"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
               <motion.div

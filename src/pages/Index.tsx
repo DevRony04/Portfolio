@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Hero from "@/components/Hero";
@@ -6,7 +5,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
-import Certificates from "@/components/Certificates";
+import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
 import PageTransition from "@/components/PageTransition";
@@ -17,7 +16,7 @@ const pages = [
   { id: 'skills', component: Skills, title: 'Skills' },
   { id: 'projects', component: Projects, title: 'Projects' },
   { id: 'education', component: Education, title: 'Education' },
-  { id: 'certificates', component: Certificates, title: 'Certificates' },
+  { id: 'certifications', component: Certifications, title: 'Certifications' },
   { id: 'contact', component: Contact, title: 'Contact' }
 ];
 
