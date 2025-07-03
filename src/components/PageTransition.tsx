@@ -40,7 +40,7 @@ const PageTransition = ({ children, direction }: PageTransitionProps) => {
         opacity: { duration: 0.2 },
         scale: { duration: 0.4 },
       }}
-      className="absolute inset-0"
+      className="w-full"
     >
       {children}
     </motion.div>
