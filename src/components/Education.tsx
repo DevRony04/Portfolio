@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const Education = () => {
@@ -36,7 +35,7 @@ const Education = () => {
                 <div className="space-y-2 mb-4">
                   <p className="text-xl text-gray-300">MCKV Institute of Engineering, MAKAUT</p>
                   <div className="flex items-center gap-4">
-                    <span className="px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 rounded-full text-white font-semibold">
+                    <span className="px-4 py-2 bg-gradient-to-r from-blue-800 to-purple-800 rounded-full text-white font-semibold">
                       CGPA: 7.5/10
                     </span>
                   </div>
