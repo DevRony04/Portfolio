@@ -110,13 +110,17 @@ const Hero = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://github.com/DevRony04"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 border border-gray-600 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/deepyaman-mondal-8592a3265/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 border border-gray-600 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
               >
                 <Linkedin className="w-5 h-5" />

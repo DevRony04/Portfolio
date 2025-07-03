@@ -8,14 +8,14 @@ const Certificates = () => {
       title: "AWS Certified Developer - Associate Certification",
       issuer: "Infosys Springboard",
       date: "June 8, 2025",
-      link: "#",
+      link: "https://drive.google.com/file/d/1ytA4Eq8s0taJgACjKqEPODZEre7SQ2d5/view",
       gradient: "from-orange-500 to-red-500"
     },
     {
       title: "Certificate of Achievement: TCS iON Career Edge - Young Professional",
       issuer: "TCS iON",
       date: "June 19, 2025",
-      link: "#",
+      link: "https://drive.google.com/file/d/1QWmj3Suq3rlV1tluuGuTzaz1YFZqMF54/view",
       gradient: "from-blue-500 to-indigo-500"
     }
   ];
@@ -64,6 +64,8 @@ const Certificates = () => {
               
               <a
                 href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${cert.gradient} rounded-lg font-semibold text-white hover:opacity-90 transition-opacity duration-200`}
               >
                 <ExternalLink size={18} />

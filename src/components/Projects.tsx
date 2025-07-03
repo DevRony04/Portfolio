@@ -15,8 +15,8 @@ const Projects = () => {
         "Implemented real-time cart updates and automatic inventory adjustment to prevent over-ordering and ensure accurate stock management."
       ],
       tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Payment Integration"],
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://ecommerce-frontend-omega-brown.vercel.app/",
+      github: "https://github.com/DevRony04/ecommerce-app",
       gradient: "from-blue-500 to-purple-600"
     },
     {
@@ -30,8 +30,8 @@ const Projects = () => {
         "After admin login, the dashboard enables automatic extraction of car details using AI from user input and seamlessly adds it to the car listings."
       ],
       tech: ["Next.js", "Arcjet", "Clerk", "Supabase", "PostgreSQL", "Gemini API"],
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://vehiql2-devrony04s-projects.vercel.app/",
+      github: "https://github.com/DevRony04/vehiql2",
       gradient: "from-green-500 to-teal-600"
     }
   ];
@@ -89,6 +89,8 @@ const Projects = () => {
                   <div className="flex gap-4">
                     <a
                       href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} rounded-lg font-semibold text-white hover:opacity-90 transition-opacity duration-200`}
                     >
                       <ExternalLink size={18} />
@@ -96,6 +98,8 @@ const Projects = () => {
                     </a>
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-6 py-3 border border-gray-600 rounded-lg font-semibold text-gray-300 hover:bg-gray-800 transition-colors duration-200"
                     >
                       <Github size={18} />

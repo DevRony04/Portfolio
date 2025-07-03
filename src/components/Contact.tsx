@@ -22,14 +22,14 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "LinkedIn Profile",
-      href: "#",
+      href: "https://www.linkedin.com/in/deepyaman-mondal-8592a3265/",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: Github,
       label: "GitHub",
       value: "GitHub Profile",
-      href: "#",
+      href: "https://github.com/DevRony04",
       color: "from-gray-600 to-gray-800"
     }
   ];
@@ -57,6 +57,8 @@ const Contact = () => {
             <motion.a
               key={contact.label}
               href={contact.href}
+              target={contact.href.startsWith('http') ? '_blank' : '_self'}
+              rel={contact.href.startsWith('http') ? 'noopener noreferrer' : ''}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
