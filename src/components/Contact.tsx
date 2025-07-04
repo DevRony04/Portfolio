@@ -121,7 +121,7 @@ const Contact = () => {
         className="text-center mt-16 pt-8 border-t border-gray-800"
       >
         <p className="text-gray-400">
-          © 2024 Deepyaman Mondal. Built with passion and code.
+          © 2025 Deepyaman Mondal. Built with passion and code.
         </p>
       </motion.div>
     </section>
