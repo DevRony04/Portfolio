@@ -16,6 +16,13 @@ const Certifications = () => {
       date: "June 19, 2025",
       link: "https://drive.google.com/file/d/1QWmj3Suq3rlV1tluuGuTzaz1YFZqMF54/view",
       gradient: "from-blue-500 to-indigo-500"
+    },
+    {
+      title: "Software Engineering Job Simulation",
+      issuer: "JP Morgan Chase & Co.",
+      date: "July 5th, 2025",
+      link: "https://drive.google.com/file/d/1bepavuv6ii1_0ZSW7ZK5qnNikfbH3K2b/view",
+      gradient: "from-green-500 to-emerald-500"
     }
   ];
 

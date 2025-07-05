@@ -56,7 +56,7 @@ const Education = () => {
               <div className="pl-8">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-white">Higher Secondary Education</h3>
-                  <span className="text-purple-400 font-semibold">2020 - 2022</span>
+                  <span className="text-purple-400 font-semibold">July 2020 - June 2022</span>
                 </div>
                 
                 <div className="space-y-2 mb-4">
