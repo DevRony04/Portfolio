@@ -5,7 +5,7 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Full-Stack E-Commerce Platform",
+      title: "Forever – Full-Stack E-Commerce Platform",
       subtitle: "Frontend | Backend | Admin Panel",
       description: "Comprehensive e-commerce solution with React.js frontend, Node.js/Express.js backend, and MongoDB database.",
       features: [
@@ -20,7 +20,7 @@ const Projects = () => {
       gradient: "from-blue-500 to-purple-600"
     },
     {
-      title: "VehiQL 2 – AI-Powered Car Marketplace",
+      title: "VehiQL – AI-Powered Car Marketplace",
       subtitle: "AI Integration | Next.js | Full-Stack",
       description: "AI-powered car marketplace using Next.js, Arcjet, Clerk, Supabase, PostgreSQL, and Gemini API integration.",
       features: [

@@ -10,12 +10,12 @@ const Skills = () => {
     },
     {
       title: "Libraries & Frameworks",
-      skills: ["ReactJS", "NextJS", "NodeJS", "ExpressJS", "GraphQL", "Mongoose", "SpringBoot"],
+      skills: ["ReactJS", "NextJS", "NodeJS", "ExpressJS", "GraphQL", "Mongoose", "SpringBoot", "Hibernate"],
       color: "from-purple-400 to-pink-400"
     },
     {
       title: "Tools & Software",
-      skills: ["Docker", "Kubernetes", "Postman", "Babel", "Webpack", "JIRA", "AWS"],
+      skills: ["Docker", "Kubernetes", "Postman", "Maven", "Webpack", "JIRA", "AWS", "Git"],
       color: "from-green-400 to-teal-400"
     },
     {
@@ -25,7 +25,7 @@ const Skills = () => {
     },
     {
       title: "AI Fields",
-      skills: ["Gen AI", "LLMS", "RAG", "Agentic AI", "MCP Servers", "AI Tools Expert"],
+      skills: ["Gen AI", "LLMS", "RAG Pipeline", "LangChain", "MCP Servers", "AI Tools Expert"],
       color: "from-yellow-400 to-orange-400"
     },
     {
