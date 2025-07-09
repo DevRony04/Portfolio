@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -40,7 +39,16 @@ const About = () => {
               >
                 🚀 I'm a passionate <span className="text-blue-400 font-semibold">Full Stack Developer</span> with hands-on experience in building robust, scalable, and high-performing web applications. My expertise lies in the <span className="text-purple-400 font-semibold">MERN stack</span> — React.js, Node.js, Express.js, and MongoDB — along with a strong foundation in Core Java and modern development tools.
               </motion.p>
-              
+
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.3 }}
+                className="text-lg leading-relaxed"
+              >
+                In addition to full stack development, I have professional experience as a Java Developer, contributing to enterprise-grade applications using Spring Boot, JDBC, and RESTful services. I've built secure backend modules, integrated APIs, and worked with MySQL and Oracle databases in Java-based environments.
+              </motion.p>
+
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -49,7 +57,7 @@ const About = () => {
               >
                 I have successfully developed and deployed dynamic e-commerce platforms, AI-integrated applications, and secure user authentication systems. My focus is on creating intuitive and responsive user interfaces, optimized backend APIs, and seamless user experiences across devices.
               </motion.p>
-              
+
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -58,7 +66,7 @@ const About = () => {
               >
                 I bring a strong problem-solving mindset and thrive in collaborative environments that push the limits of innovation. In addition to development, I have practical experience with <span className="text-green-400 font-semibold">system design principles</span>, Microsoft Certified Professional (MCP) server environments, and the integration of AI tools to enhance business functionality.
               </motion.p>
-              
+
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -95,7 +103,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl backdrop-blur-sm border border-white/10">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.3),transparent_70%)] rounded-3xl"></div>
-              
+
               {/* Animated elements */}
               <div className="absolute inset-0 overflow-hidden rounded-3xl">
                 {[...Array(8)].map((_, i) => (
@@ -118,15 +126,15 @@ const About = () => {
                   />
                 ))}
               </div>
-              
+
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <motion.div
                   className="w-40 h-40 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-30"
-                  animate={{ 
+                  animate={{
                     scale: [1, 1.2, 1],
                     rotate: [0, 180, 360]
                   }}
-                  transition={{ 
+                  transition={{
                     duration: 4,
                     repeat: Infinity,
                     ease: "easeInOut"
@@ -134,11 +142,11 @@ const About = () => {
                 />
                 <motion.div
                   className="absolute inset-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-40"
-                  animate={{ 
+                  animate={{
                     scale: [1.2, 1, 1.2],
                     rotate: [360, 180, 0]
                   }}
-                  transition={{ 
+                  transition={{
                     duration: 3,
                     repeat: Infinity,
                     ease: "easeInOut"
