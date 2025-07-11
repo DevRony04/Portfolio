@@ -46,7 +46,7 @@ const About = () => {
                 transition={{ delay: 0.3 }}
                 className="text-lg leading-relaxed"
               >
-                In addition to full stack development, I have professional experience as a Java Developer, contributing to enterprise-grade applications using Spring Boot, JDBC, and RESTful services. I've built secure backend modules, integrated APIs, and worked with MySQL and Oracle databases in Java-based environments.
+                In addition to full stack development, I have professional experience as a <span className="text-orange-400 font-semibold">Java Developer</span> — contributing to enterprise-grade applications using Spring Boot, JDBC, and RESTful services. I've built secure backend modules, integrated APIs, and worked with MySQL and Oracle databases in Java-based environments.
               </motion.p>
 
               <motion.p
