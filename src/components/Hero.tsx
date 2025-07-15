@@ -5,7 +5,7 @@ const Hero = () => {
   const skills = ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "AI Integration", "System Design"];
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
       <div className="max-w-7xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -101,6 +101,14 @@ const Hero = () => {
             >
               <Mail className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               Get In Touch
+            </a>
+            <a
+              href="/resume.pdf"
+              download
+              className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m0 0l-6-6m6 6l6-6" /></svg>
+              Download Resume
             </a>
             
             <div className="flex gap-4">

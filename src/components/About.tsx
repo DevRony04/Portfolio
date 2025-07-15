@@ -9,7 +9,7 @@ const About = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 pt-32">
+    <section className="min-h-screen flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 pt-30">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
