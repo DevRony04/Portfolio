@@ -8,21 +8,28 @@ const Certifications = () => {
       issuer: "Infosys Springboard",
       date: "June 8, 2025",
       link: "https://drive.google.com/file/d/1ytA4Eq8s0taJgACjKqEPODZEre7SQ2d5/view",
-      gradient: "from-orange-500 to-red-500"
+      gradient: "from-orange-500 to-red-700"
     },
     {
       title: "Certificate of Achievement: TCS iON Career Edge - Young Professional",
       issuer: "TCS iON",
       date: "June 19, 2025",
       link: "https://drive.google.com/file/d/1QWmj3Suq3rlV1tluuGuTzaz1YFZqMF54/view",
-      gradient: "from-blue-500 to-indigo-500"
+      gradient: "from-blue-500 to-indigo-700"
     },
     {
       title: "Software Engineering Job Simulation",
       issuer: "JP Morgan Chase & Co.",
       date: "July 5th, 2025",
       link: "https://drive.google.com/file/d/1bepavuv6ii1_0ZSW7ZK5qnNikfbH3K2b/view",
-      gradient: "from-green-500 to-emerald-500"
+      gradient: "from-green-500 to-emerald-700"
+    },
+    {
+      title: "AWS Cloud Practitioner Essentials",
+      issuer: "AWS",
+      date: "18th July, 2025",
+      link: "https://drive.google.com/file/d/11b6GsQrR3d4go3_Q6NdZdKtE7MIRB5BV/view?usp=sharing",
+      gradient: "from-pink-500 to-pink-700"
     }
   ];
 
