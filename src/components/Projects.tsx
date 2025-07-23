@@ -33,6 +33,21 @@ const Projects = () => {
       liveDemo: "https://vehiql2-devrony04s-projects.vercel.app/",
       github: "https://github.com/DevRony04/vehiql2",
       gradient: "from-green-500 to-teal-600"
+    },
+    {
+      title: "Resumind – AI Powered Resume Analyser",
+      subtitle: "Frontend | AI Integration | File Storage",
+      description: "Smart resume evaluation platform that analyzes resumes using AI and provides real-time feedback to job seekers.",
+      features: [
+        "AI-powered resume scoring with Junni.ai for keyword optimization, formatting checks, and industry-standard evaluation.",
+        "Seamless SPA navigation using React Router v6 across resume upload, analysis, and feedback views.",
+        "Secure cloud-based resume upload and storage using Puter.js and Puter Storage API.",
+        "Responsive, modular UI built with React for high performance and scalability across all devices."
+      ],
+      tech: ["React.js (Router v6)", "Junie AI", "Puter.js", "Puter Storage API"],
+      liveDemo: "https://ai-resume-analyzer-pearl.vercel.app/",
+      github: "https://github.com/DevRony04/ai-resume-analyzer",
+      gradient: "from-fuchsia-600 to-pink-500"
     }
   ];
 
