@@ -48,7 +48,24 @@ const Projects = () => {
       liveDemo: "https://ai-resume-analyzer-pearl.vercel.app/",
       github: "https://github.com/DevRony04/ai-resume-analyzer",
       gradient: "from-fuchsia-600 to-pink-500"
-    }
+    },
+    {
+      title: "CodeSync – Remote Video Calling Interview Platform",
+      subtitle: "Next.js | TypeScript | Video Calls",
+      description: "Modern interview platform with video calling, screen sharing, and recording. Built using Next.js, TypeScript, Stream, Convex, and Clerk for authentication.",
+      features: [
+        "Seamless video calling experience with integrated screen sharing and recording, enabling interactive and documented interviews.",
+        "Robust authentication and authorization powered by Clerk, ensuring secure access for candidates and interviewers.",
+        "Utilizes Next.js server components, layouts, and server actions for scalable, high-performance architecture and efficient data handling.",
+        "Modern UI and responsive design styled with Tailwind CSS and Shadcn UI for a polished, professional look across all devices."
+      ],
+      tech: [
+        "Next.js", "TypeScript", "Stream", "Convex", "Clerk", "Tailwind CSS", "Shadcn"
+      ],
+      liveDemo: "https://remote-interview-platform-gold.vercel.app/",
+      github: "https://github.com/DevRony04/Remote-Interview-Platform",
+       gradient: "from-stone-700 to-yellow-800"
+    },
   ];
 
   return (
