@@ -134,6 +134,17 @@ const Hero = () => {
               >
                 <Linkedin className="w-5 h-5" />
               </a>
+              <a
+                href="https://leetcode.com/u/DevRony04"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-4 border border-gray-600 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.9 4.2a1 1 0 011.4.1l3.7 4.1a1 1 0 01-1.5 1.3l-3-3.3-6.9 7.6 3 3.3a1 1 0 01-1.5 1.3l-3.7-4.1a1 1 0 01.1-1.4l7.9-8.8z" fill="#FFA116"/>
+                  <path d="M18.5 14.5H12a1 1 0 100 2h6.5a1 1 0 100-2z" fill="#B3B3B3"/>
+                </svg>
+              </a>
             </div>
           </motion.div>
         </motion.div>

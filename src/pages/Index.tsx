@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
@@ -15,6 +16,7 @@ const pages = [
   { id: 'about', component: About, title: 'About' },
   { id: 'skills', component: Skills, title: 'Skills' },
   { id: 'projects', component: Projects, title: 'Projects' },
+  { id: 'experience', component: Experience, title: 'Experience' },
   { id: 'education', component: Education, title: 'Education' },
   { id: 'certifications', component: Certifications, title: 'Certifications' },
   { id: 'contact', component: Contact, title: 'Contact' }
