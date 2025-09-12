@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+## 🌐 Portfolio
 
-## Project info
+<img width="1820" height="914" alt="Screenshot 2025-09-05 120924" src="https://github.com/user-attachments/assets/8d87b1a1-066c-4fa8-a3bb-ce58f471cd02" />
 
-**URL**: https://lovable.dev/projects/32a77537-336d-44ec-bb5d-a2083a803fa6
+## 📑 Table of Contents
+- 📖 About
+- ✨ Features
+- 🛠️ Technologies Used
+- ⚙️ Installation
+- 🚀 Usage
+- 📂 Project Structure
+- 🤝 Contributing
+- 📜 License
+- 📬 Contact
 
-## How can I edit this code?
+## 📖 About
 
-There are several ways of editing your application.
+A modern and responsive personal portfolio website designed to showcase my skills, projects, and experiences.
+It acts as my digital resume and a hub for potential employers, collaborators, and the dev community to connect with me.
 
-**Use Lovable**
+“Code. Create. Connect. 🚀”
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/32a77537-336d-44ec-bb5d-a2083a803fa6) and start prompting.
+## ✨ Features :->
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✅ Fully responsive (desktop, tablet, mobile)
+- ✅ Interactive & filterable project gallery
+- ✅ Integrated contact form (EmailJS)
+- ✅ Resume/CV download button
+- ✅ Smooth animations & transitions
+- ✅ SEO-friendly & fast loading
 
-**Use your preferred IDE**
+## 🛠️ Technologies Used :->
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: HTML5, CSS3, JavaScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Frameworks & Libraries: React
+, Tailwind CSS
+ / Bootstrap
 
-Follow these steps:
+Tools: EmailJS
+ (for forms), GitHub Pages
+ / Netlify
+ / Vercel
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Version Control: Git & GitHub
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Installation :->
 
-# Step 3: Install the necessary dependencies.
-npm i
+Clone the repository and install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+git clone https://github.com/DevRony04/Portfolio.git
+cd Portfolio
 
-**Edit a file directly in GitHub**
+# Using npm
+npm install
+npm start
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Or using yarn
+yarn install
+yarn start
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Prerequisites: Node.js
+ and npm/yarn installed.
 
-## What technologies are used for this project?
+## 🚀 Usage :->
 
-This project is built with:
+Visit http://localhost:3000 after starting the dev server.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Update your details (bio, skills, projects, social links) inside src/data or public.
 
-## How can I deploy this project?
+Replace placeholder images and resume with your own assets.
 
-Simply open [Lovable](https://lovable.dev/projects/32a77537-336d-44ec-bb5d-a2083a803fa6) and click on Share -> Publish.
+## 📂 Project Structure :->
+Portfolio/
+- ├── public/
+- │   ├── assets/         # Images, icons, resume
+- │   └── index.html
+- ├── src/
+- │   ├── components/     # Reusable components
+-│   ├── pages/          # Page-level components
+- │   ├── data/           # Configurable profile, skills, projects
+- │   └── App.js
+- ├── README.md
+- └── package.json
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing :->
 
-Yes, you can!
+Contributions are welcome! 🎉
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Fork the repo
+- Create your branch (git checkout -b feature/NewFeature)
+- Commit (git commit -m "Add: New feature")
+- Push (git push origin feature/NewFeature)
+- Open a Pull Request 
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Deployment 🚀 :->
+Vercel :-> https://rony-portfolio-site.vercel.app
+
+## 📜 License
+- This project is licensed under the MIT License.
