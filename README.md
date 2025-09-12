@@ -94,7 +94,7 @@ Contributions are welcome! 🎉
 - Push (git push origin feature/NewFeature)
 - Open a Pull Request 
 
-## Deployment 🚀 :->
+## 🚀 Deployment :->
 Vercel :-> https://rony-portfolio-site.vercel.app
 
 ## 📜 License
