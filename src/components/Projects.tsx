@@ -5,6 +5,21 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "AI Trip Planner – Full-Stack Saas Application",
+      subtitle: "Next.js | AI Integration | Mapbox | Clerk",
+      description: "AI-powered travel planning SaaS application built with Next.js 14, Tailwind CSS, Clerk Authentication, and Mapbox integration for creating and managing custom itineraries.",
+      features: [
+        "AI-powered trip assistant that generates personalized itineraries using natural language input and intelligent recommendations",
+        "Interactive maps with Mapbox integration for destination exploration, route visualization, and real-time location services",
+        "Secure authentication and user management powered by Clerk with seamless switching between map view and trip schedule",
+        "Pricing subscription system for users with different tiers and payment integration for premium features"
+      ],
+      tech: ["Next.js 14", "Shadcn UI", "Clerk", "Mapbox", "OpenAI API", "TypeScript"],
+      liveDemo: "https://ai-trip-planner-blush.vercel.app/",
+      github: "https://github.com/DevRony04/AI-Trip-Planner",
+      gradient: "from-yellow-600 to-orange-800"
+    },
+    {
       title: "Forever – Full-Stack E-Commerce Platform",
       subtitle: "Frontend | Backend | Admin Panel",
       description: "Comprehensive e-commerce solution with React.js frontend, Node.js/Express.js backend, and MongoDB database.",
