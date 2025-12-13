@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       title: "Database",
-      skills: ["MySQL", "PostgreSQL", "MongoDB"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB","Redis"],
       color: "from-orange-400 to-red-400"
     },
     {

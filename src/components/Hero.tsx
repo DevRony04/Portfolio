@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
-  const skills = ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "AI Integration", "System Design"];
+  const skills = ["React.js", "Next.js", "Node.js", "Express.js", "Spring Boot","AI Integration", "System Design"];
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
