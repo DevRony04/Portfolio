@@ -31,7 +31,7 @@ It acts as my digital resume and a hub for potential employers, collaborators, a
 
 ## 🛠️ Technologies Used :->
 
-Frontend: HTML5, CSS3, JavaScript
+Frontend: HTML5, CSS3, TypeScript
 
 Frameworks & Libraries: React
 , Tailwind CSS
