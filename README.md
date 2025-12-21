@@ -1,6 +1,7 @@
 ## 🌐 Portfolio
 
-<img width="1820" height="914" alt="Screenshot 2025-09-05 120924" src="https://github.com/user-attachments/assets/8d87b1a1-066c-4fa8-a3bb-ce58f471cd02" />
+<img width="1820" height="904" alt="Screenshot 2025-12-21 130932" src="https://github.com/user-attachments/assets/4f88cd55-5e2d-4f3d-b9be-05287dcd78ad" />
+
 
 ## 📑 Table of Contents
 - 📖 About
