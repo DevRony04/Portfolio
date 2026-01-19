@@ -2,7 +2,15 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
-  const skills = ["React.js", "Next.js", "Node.js", "Express.js", "Spring Boot","AI Integration", "System Design"];
+  const skills = [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Spring Boot",
+    "AI Integration",
+    "System Design",
+  ];
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
@@ -54,7 +62,7 @@ const Hero = () => {
             transition={{ delay: 0.7 }}
             className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8 font-light"
           >
-            Full Stack Developer & AI Enthusiast
+            Software Engineer | Full-Stack & Backend Systems
           </motion.div>
 
           {/* Animated Skills */}
@@ -84,8 +92,11 @@ const Hero = () => {
             transition={{ delay: 1.2 }}
             className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-12 px-4"
           >
-            Passionate Full Stack Developer with expertise in the MERN stack, AI integration, and system design. 
-            I build scalable web applications with intuitive user experiences and robust backend architectures.
+            Software Engineer specializing in full-stack and backend
+            development, with experience in MERN-based applications, AI-powered
+            features, and system design. I build scalable web platforms with
+            intuitive user experiences and reliable, high-performance backend
+            architectures.
           </motion.p>
 
           {/* Contact Buttons */}
@@ -107,10 +118,22 @@ const Hero = () => {
               download
               className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m0 0l-6-6m6 6l6-6" /></svg>
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 4v16m0 0l-6-6m6 6l6-6"
+                />
+              </svg>
               Download Resume
             </a>
-            
+
             <div className="flex gap-4">
               <a
                 href="tel:+917439665040"
@@ -140,9 +163,20 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="p-4 border border-gray-600 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
               >
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.9 4.2a1 1 0 011.4.1l3.7 4.1a1 1 0 01-1.5 1.3l-3-3.3-6.9 7.6 3 3.3a1 1 0 01-1.5 1.3l-3.7-4.1a1 1 0 01.1-1.4l7.9-8.8z" fill="#FFA116"/>
-                  <path d="M18.5 14.5H12a1 1 0 100 2h6.5a1 1 0 100-2z" fill="#B3B3B3"/>
+                <svg
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9 4.2a1 1 0 011.4.1l3.7 4.1a1 1 0 01-1.5 1.3l-3-3.3-6.9 7.6 3 3.3a1 1 0 01-1.5 1.3l-3.7-4.1a1 1 0 01.1-1.4l7.9-8.8z"
+                    fill="#FFA116"
+                  />
+                  <path
+                    d="M18.5 14.5H12a1 1 0 100 2h6.5a1 1 0 100-2z"
+                    fill="#B3B3B3"
+                  />
                 </svg>
               </a>
             </div>

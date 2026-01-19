@@ -29,14 +29,14 @@ const Education = () => {
               <div className="pl-8">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-white">Bachelor of Technology (B.Tech)</h3>
-                  <span className="text-blue-400 font-semibold">September 2022 - August 2026</span>
+                  <span className="text-blue-400 font-semibold">July 2022 - June 2026</span>
                 </div>
                 
                 <div className="space-y-2 mb-4">
-                  <p className="text-xl text-gray-300">MCKV Institute of Engineering, MAKAUT</p>
+                  <p className="text-xl text-gray-300">Maulana Abul Kalam Azad University of Technology</p>
                   <div className="flex items-center gap-4">
                     <span className="px-4 py-2 bg-gradient-to-r from-blue-800 to-purple-800 rounded-full text-white font-semibold">
-                      CGPA: 7.5/10
+                      CGPA: 7.52 / 10
                     </span>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ const Education = () => {
               <div className="pl-8">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-white">Higher Secondary Education</h3>
-                  <span className="text-purple-400 font-semibold">July 2020 - June 2022</span>
+                  <span className="text-purple-400 font-semibold">2020 - 2022</span>
                 </div>
                 
                 <div className="space-y-2 mb-4">
