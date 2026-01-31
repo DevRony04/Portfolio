@@ -5,21 +5,18 @@ const Experience = () => {
     {
       role: "Full Stack Development Intern",
       company: "InLighnX Global Pvt. Ltd.",
-      period: "10/06/2025 - 10/09/2025",
+      period: "10/06/2025 - 10/12/2025",
       location: "",
       highlights: [
-        "Developed Forever, a full-stack e-commerce platform with secure authentication, payment gateway, order tracking, and an admin dashboard.",
-        "Built VehiQL, an AI-powered car marketplace with conversational search, AI-driven recommendations, and secure authentication/bot protection.",
-        "Designed Resumind, an AI-based resume analyzer providing real-time scoring, feedback, and secure resume storage.",
-        "Created a personal portfolio website with a modern, responsive UI using React, Tailwind, and TypeScript.",
-        "Delivered production-grade performance improvements (Lighthouse +20–35%) and reduced load times, improving UX across projects.",
+        "Collaborated cross-functionally with designers and backend engineers to deliver a production-grade full-stack e-commerce platform, improving performance and accessibility and achieving a 95+ Google Lighthouse score through frontend and API optimizations.",
+        "Built VehiQL, an AI-powered car marketplace featuring conversational search and personalized recommendations; collaborated closely with teammates across frontend, backend, and product to design and ship core features, while implementing rate limiting and bot protection to ensure reliability and secure handling of concurrent traffic.",
+        "Developed Resumind, an AI-driven resume analysis platform that delivers instant scoring and actionable feedback, optimizing backend request handling to achieve low-latency responses (~200ms).",
+        "Designed and shipped a responsive personal portfolio using React, TypeScript, and Tailwind CSS, focusing on performance optimization, scalability, and global accessibility, resulting in high availability and consistent user experience.",
         "Tech stack :- React, Next.js, Node.js, Express, MongoDB, PostgreSQL, Tailwind, TypeScript, Clerk, Supabase, Arcjet, Gemini API.",
       ],
       gradient: "from-blue-500 to-purple-600",
       certificateText:
-        "Completed a 3-month Full Stack Development Internship at InLighnX Global Pvt. Ltd. (10/06/2025 – 10/09/2025), contributing across the stack on production-grade projects.",
-      certificateLink:
-        "https://drive.google.com/file/d/1w9RQXYieS1vR6uVLRqXya6QipWpJHA02/view",
+        "Completed a 6-month Full Stack Development Internship at InLighnX Global Pvt. Ltd. (10/06/2025 – 10/12/2025), contributing across the stack on production-grade projects.",
     },
   ];
 
@@ -75,19 +72,6 @@ const Experience = () => {
                       </li>
                     ))}
                   </ul>
-
-                  {"certificateLink" in exp && (
-                    <div className="mt-6">
-                      <a
-                        href={(exp as any).certificateLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${exp.gradient} rounded-lg font-semibold text-white hover:opacity-90 transition-opacity duration-200`}
-                      >
-                        View Experience Letter
-                      </a>
-                    </div>
-                  )}
                 </div>
               </div>
             </motion.div>
