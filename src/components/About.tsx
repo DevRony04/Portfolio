@@ -37,7 +37,7 @@ const About = () => {
                 transition={{ delay: 0.2 }}
                 className="text-lg leading-relaxed"
               >
-                🚀 I'm a passionate <span className="text-blue-400 font-semibold">Full Stack Developer</span> with hands-on experience in building robust, scalable, and high-performing web applications. My expertise lies in the <span className="text-purple-400 font-semibold">MERN stack</span> — React.js, Node.js, Express.js, and MongoDB — along with a strong foundation in Core Java and modern development tools.
+                🚀 I'm a passionate <span className="text-blue-400 font-semibold">Systems & Full-Stack Engineer</span> with experience in building robust, high-throughput, and scalable web architectures. My technical expertise spans across <span className="text-purple-400 font-semibold">Java (Spring Boot / Spring Cloud)</span>, <span className="text-orange-400 font-semibold">Python (FastAPI)</span>, and <span className="text-blue-400 font-semibold">TypeScript (React & Next.js)</span>, coupled with modern event streaming and microservices patterns.
               </motion.p>
 
               <motion.p
@@ -46,7 +46,7 @@ const About = () => {
                 transition={{ delay: 0.3 }}
                 className="text-lg leading-relaxed"
               >
-                In addition to full stack development, I have professional experience as a <span className="text-orange-400 font-semibold">Java Developer</span> — contributing to enterprise-grade applications using Spring Boot, JDBC, and RESTful services. I've built secure backend modules, integrated APIs, and worked with MySQL and Oracle databases in Java-based environments.
+                In my professional experience as a <span className="text-emerald-400 font-semibold">Software Developer Intern</span>, I contributed to production-grade applications where I specialized in database optimization, secure authentication, API acceleration, and system resilience patterns (e.g. circuit breakers, rate limiting).
               </motion.p>
 
               <motion.p
@@ -55,7 +55,7 @@ const About = () => {
                 transition={{ delay: 0.4 }}
                 className="text-lg leading-relaxed"
               >
-                I have successfully developed and deployed dynamic e-commerce platforms, AI-integrated applications, and secure user authentication systems. My focus is on creating intuitive and responsive user interfaces, optimized backend APIs, and seamless user experiences across devices.
+                I enjoy engineering end-to-end architectures—whether it's setting up an event-driven ingestion pipeline with <span className="text-cyan-400 font-semibold">Apache Kafka</span>, utilizing time-series databases like <span className="text-teal-400 font-semibold">InfluxDB</span> and relational databases like <span className="text-indigo-400 font-semibold">PostgreSQL</span>, or integrating computer vision models like <span className="text-pink-400 font-semibold">YOLOv8</span> into real-time applications.
               </motion.p>
 
               <motion.p
@@ -64,7 +64,7 @@ const About = () => {
                 transition={{ delay: 0.6 }}
                 className="text-lg leading-relaxed"
               >
-                I bring a strong problem-solving mindset and thrive in collaborative environments that push the limits of innovation. In addition to development, I have practical experience with <span className="text-green-400 font-semibold">system design principles</span>, Microsoft Certified Professional (MCP) server environments, and the integration of AI tools to enhance business functionality.
+                I bring a strong foundation in <span className="text-yellow-400 font-semibold">Data Structures, Algorithms</span>, and <span className="text-green-400 font-semibold">System Design</span> principles. I thrive in high-standard engineering cultures that value testing coverage, performance monitoring, clean code documentation, and scalable system architectures.
               </motion.p>
 
               <motion.div

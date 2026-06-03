@@ -5,6 +5,36 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Retail Intelligence Platform",
+      subtitle: "Python | FastAPI | Neon PostgreSQL | YOLOv8 | Streamlit",
+      description: "A real-time, production-grade AI-powered Store Analytics and Operational Intelligence platform that ingests raw video footage from retail CCTV networks to generate structured event streams, track conversion funnels, and trigger real-time operational alerts.",
+      features: [
+        "Tracks unique shopper journeys across distinct store zones using YOLOv8 object detection and custom centroid-based association tracking.",
+        "Maps real-time shopper coordinates against configured polygonal store layout zones using a ray-casting point-in-polygon solver.",
+        "High-performance async FastAPI backend utilizing Neon Serverless PostgreSQL with database-level idempotency to guarantee exact-once event processing.",
+        "Constructed an interactive Streamlit executive command center with real-time KPI metrics, queue depth indicators, spatial heatmaps, and live telemetry."
+      ],
+      tech: ["Python", "FastAPI", "Neon PostgreSQL", "YOLOv8", "Streamlit", "Docker", "SQLAlchemy", "Loguru"],
+      liveDemo: "https://retail-intelligence-platform.streamlit.app",
+      github: "https://github.com/DevRony04/retail-intelligence-platform",
+      gradient: "from-indigo-600 to-violet-800"
+    },
+    {
+      title: "Home Energy Tracker",
+      subtitle: "Java | Spring Boot 4 | Spring Cloud | Kafka",
+      description: "A microservices reference implementation for monitoring and reasoning about household electricity usage. Implemented event-driven streaming, time-series storage, resilience patterns, and observability dashboards.",
+      features: [
+        "Architected with Java 21, Spring Boot 4, and Spring Cloud Gateway with Resilience4j circuit breakers and OAuth2 JWT security via Keycloak.",
+        "Implemented asynchronous event streaming with Apache Kafka (KRaft) to process high-volume device power usage data.",
+        "Utilized InfluxDB for optimized time-series usage storage, combined with MySQL for durable domain database storage.",
+        "Established full observability using Prometheus to scrape service metrics and Grafana dashboards for visualization."
+      ],
+      tech: ["Java 21", "Spring Boot 4", "Spring Cloud", "Kafka", "InfluxDB", "MySQL", "Keycloak", "Grafana"],
+      github: "https://github.com/DevRony04/home-energy-tracker",
+      gradient: "from-teal-600 to-emerald-800"
+    },
+
+    {
       title: "AI Trip Planner – Full-Stack Saas Application",
       subtitle: "Next.js | AI Integration | Mapbox | Clerk",
       description: "AI-powered travel planning SaaS application built with Next.js 14, Tailwind CSS, Clerk Authentication, and Mapbox integration for creating and managing custom itineraries.",
@@ -134,15 +164,17 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-4">
-                    <a
-                      href={project.liveDemo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} rounded-lg font-semibold text-white hover:opacity-90 transition-opacity duration-200`}
-                    >
-                      <ExternalLink size={18} />
-                      Live Demo
-                    </a>
+                    {project.liveDemo && (
+                      <a
+                        href={project.liveDemo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} rounded-lg font-semibold text-white hover:opacity-90 transition-opacity duration-200`}
+                      >
+                        <ExternalLink size={18} />
+                        Live Demo
+                      </a>
+                    )}
                     <a
                       href={project.github}
                       target="_blank"

@@ -32,8 +32,8 @@ const Navigation = ({ currentPage, goToPage, pages }: NavigationProps) => {
                 onClick={() => goToPage(index)}
                 className={`relative px-6 py-3 text-sm font-medium transition-all duration-300 rounded-full ${
                   currentPage === index
-                    ? "text-white bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg shadow-blue-500/25"
-                    : "text-gray-300 hover:text-white hover:bg-white/10"
+                    ? "text-white shadow-lg shadow-blue-500/20"
+                    : "text-gray-305 hover:text-white hover:bg-white/5"
                 }`}
               >
                 {page.title}
@@ -41,7 +41,7 @@ const Navigation = ({ currentPage, goToPage, pages }: NavigationProps) => {
                   <motion.div
                     layoutId="activeTab"
                     className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full -z-10"
-                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                    transition={{ type: "spring", bounce: 0.15, duration: 0.5 }}
                   />
                 )}
               </button>
